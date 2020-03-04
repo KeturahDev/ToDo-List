@@ -10,7 +10,7 @@ namespace ToDoList.Tests
     [TestMethod]
     public void ItemConstructor_CreatesInstanceOfItem_Item()
     {
-      Item newItem = new Item();
+      Item newItem = new Item("test");
       Assert.AreEqual(typeof(Item), newItem.GetType());
     }
     [TestMethod]
@@ -20,7 +20,7 @@ namespace ToDoList.Tests
       string description = "Mow the lawn";
       Item newItem = new Item(description);
       //Act
-      string result = newItem.Description();
+      string result = newItem.Description;
       //Assert
       Assert.AreEqual(result, description);
     }
