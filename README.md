@@ -16,8 +16,9 @@ To Do List in C#.
 | Create an item object without specific properties | create instance of item | *item exists* |
 | Create an item object with description | create instance of item, naming it immediately | *item exists and displays it's name* |
 | set/alter items description | *mow the lawn* change to plural | *mow the lawns* |
+| static variable exists to hold items | calls to see empty list | *empty list displays* |
 | items are held in a static variable | call to see all items | *all items display* |
-
+| ability to delete items | choose item to remove | *is removed* |
 
 
 
