@@ -57,5 +57,19 @@ namespace ToDoList.Tests
       // Assert
       CollectionAssert.AreEqual(result, newList);
     }
+    [TestMethod]
+    public void GetItems_ReturnListOfItems_ItemList()
+    {
+      // Arrange
+      string description1 = "study homework";
+      string description2 = "run on treadmill";
+      Item item1 = new Item(description1);
+      Item item2 = new Item(description2);
+      List<Item> newList = new List<Item> {item1, item2};
+      //act
+      List<Item> result = Item.GetAll();
+      // Assert
+      CollectionAssert.AreEqual(result, newList);
+    }
   }
 }
