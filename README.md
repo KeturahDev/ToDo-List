@@ -18,7 +18,7 @@ To Do List in C#.
 | set/alter items description | *mow the lawn* change to plural | *mow the lawns* |
 | static variable exists to hold items | calls to see empty list | *empty list displays* |
 | items are held in a static variable | call to see all items | *all items display* |
-| ability to delete items | choose item to remove | *is removed* |
+
 
 
 
