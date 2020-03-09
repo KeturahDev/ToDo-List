@@ -22,7 +22,7 @@ To Do List in C#.
 | Specification Front | Example Input | Example Output |
 | :------------- |:-------------| :-------------------|
 | home page is a form with ability to submit a new todo | *start app, home opens*| input: input to do  |
-| items submitted in form apear in html element list with button | input: "wash hair" *click* | *html li element apears* "wash hair"[done] |
+| item submitted in form apear in html element list | input: "wash hair" *click* | *html li element apears* "wash hair"|
 | Start at ability to add items to list| empty list, input box, submit button | type in something to input, apears on textbox |
 | Items can be completed by deleting | lidt of items is visible | *click on item, item goes away* |
 | items can be completed by clicking on done button | *item is not done* click on items done button | *item* completed! |
