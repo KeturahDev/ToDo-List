@@ -5,7 +5,7 @@ namespace ToDoList.Models
   public class Item
   {
     public string Description {get; set;}
-    private static List<Item> _instances = new List<Item> {}; //new static variable
+    public static List<Item> _instances {get;set;} = new List<Item> {}; //new static variable
 
     public Item(string description)
     {
