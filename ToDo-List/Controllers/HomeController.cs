@@ -6,7 +6,11 @@ namespace ToDoList.Controllers
   public class HomeController : Controller
   {
     [Route("/")]
-    public ActionResult ToDoPage() { return View(); }
+    public ActionResult ToDoPage(string task) 
+    { 
+      Item newItem = new Item(task);
+      return View(newItem);
+    }
 
   } 
 }
